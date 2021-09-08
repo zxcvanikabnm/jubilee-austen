@@ -14,7 +14,7 @@ li {
 }
 
 header,
-section,
+/* section, */
 footer {
   padding: 0 120px;
   margin: 0 auto;
@@ -59,4 +59,25 @@ h1 {
 
 h1 span {
   color: #9b9b9b;
+}
+
+section {
+  padding: 125px 150px;
+}
+
+.about div {
+  display: flex;
+  justify-content: space-between;
+  color: #828282;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-size: 36px;
+}
+
+p {
+  font-size: 21px;
+  line-height: 200%;
+  width: 45%;
 }
